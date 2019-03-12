@@ -1,0 +1,16 @@
+{ "manifest_version": 2
+, "name": "Example"
+, "version": "1.0"
+, "background":
+  { "page": "background.html"
+  }
+, "browser_action":
+  { "browser_style": true
+  , "default_icon": "icon.svg"
+  }
+, "browser_specific_settings":
+  { "gecko":
+    { "id": "{939bce00-11e4-41b8-a646-2619caa5cde1}"
+    }
+  }
+}
